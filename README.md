@@ -3,6 +3,9 @@
 ## Tech Stack
 
 - Nuxt 4
+- Nuxt UI 4
+- Nuxt I18n
+- Content
 
 ## Internalization (I18n)
 
