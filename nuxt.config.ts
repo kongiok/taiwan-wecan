@@ -2,10 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+  modules: ["@nuxt/ui"],
   appId: "taiwan-wecan",
   app: {
     rootAttrs: {
       id: "__taiwan-wecan__",
     },
   },
+  css: ["~/assets/styles/main.css"],
 });
