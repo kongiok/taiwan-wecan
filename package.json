@@ -15,6 +15,7 @@
     "@nuxt/ui": "^4.2.1",
     "@nuxtjs/i18n": "10.2.1",
     "@nuxtjs/mdc": "^0.19.1",
+    "@vueuse/nuxt": "14.1.0",
     "better-sqlite3": "^12.5.0",
     "neverthrow": "^8.2.0",
     "nuxt": "^4.2.1",

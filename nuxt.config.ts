@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/i18n",
     "@nuxt/fonts",
+    "@vueuse/nuxt",
   ],
   appId: "taiwan-wecan",
   app: {
