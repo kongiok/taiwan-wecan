@@ -26,6 +26,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.2.78",
     "@iconify-json/ri": "^1.2.6",
     "tailwindcss": "^4.1.17"
   }

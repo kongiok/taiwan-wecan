@@ -5,6 +5,8 @@ qna:
   seo:
     name: 常見問題｜魔法部 X 人民作主志工團
     tagline: 在這裡可以找到大家都詢問過的問題，我們歡迎並鼓勵你隨時與我們討論！
+  post_seo:
+    suffix: 為什麼需要連署？
   categories_label:
     reason: 發起事由
     process: 操作流程
@@ -24,3 +26,5 @@ qna:
   browse:
     title: 選擇你的傳送門
     questions: 想知道什麼樣的問題呢？
+  actions:
+    copy: 複製問答
