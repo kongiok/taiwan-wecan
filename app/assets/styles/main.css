@@ -2,6 +2,17 @@
 @import "@nuxt/ui";
 @source "../../../content/**/*";
 
+@theme static {
+  --font-genyog: "GenYoGothic", sans-serif;
+  --font-lxgw: "LXGW WenKai TC", serif;
+  --font-sans: "GenYoGothic", sans-serif;
+
+  --tmt-gradient-hero:
+    45deg, oklab(63.3% 0.192 0.054), oklab(75.8% 0.066 0.123),
+    oklab(88.2% -0.017 0.156), oklab(85.6% -0.096 0.079),
+    oklab(65.7% -0.091 -0.028);
+}
+
 :root {
   --ui-radius: 0.275rem;
 }

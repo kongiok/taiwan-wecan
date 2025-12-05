@@ -2,7 +2,7 @@
 const route = useRoute();
 const { t } = useI18n();
 const head = useLocaleHead();
-const title = computed(() => t(route.meta.title ?? "site.title"));
+const title = computed(() => t(route.meta.title ?? "site.seo.name"));
 </script>
 
 <template>
@@ -27,7 +27,30 @@ const title = computed(() => t(route.meta.title ?? "site.title"));
     </Head>
     <Body>
       <u-app>
-        <slot />
+        <u-main class="min-h-screen">
+          <u-page>
+            <slot />
+          </u-page>
+          <u-footer>
+            <p class="font-genyog">
+              程式碼以
+              <nuxt-link>MPL v2.0</nuxt-link> 授權；而思想、論述、創意及圖卡採用
+              <nuxt-link
+                to="https://creativecommons.org/licenses/by-nd/4.0/"
+                external
+                target="_blank"
+                class="inline-flex items-center gap-1 text-balance text-info-800"
+              >
+                <span class="font-bold">CC BY-ND</span
+                ><u-icon
+                  class="size-5"
+                  name="ri:creative-commons-by-line"
+                /><u-icon class="size-5" name="ri:creative-commons-nd-line" />
+              </nuxt-link>
+              授權
+            </p>
+          </u-footer>
+        </u-main>
       </u-app>
     </Body>
   </Html>

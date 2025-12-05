@@ -1,4 +1,26 @@
 qna:
-  actions:
-    listQNA: 我要看！
-    contactUs: 聯繫我們
+  hero:
+    name: 我想知道⋯⋯
+    tagline: 所有的疑問，我們都幫你整理好了！有任何問題也歡迎隨時聯繫我們。
+  seo:
+    name: 常見問題｜魔法部 X 人民作主志工團
+    tagline: 在這裡可以找到大家都詢問過的問題，我們歡迎並鼓勵你隨時與我們討論！
+  categories_label:
+    reason: 發起事由
+    process: 操作流程
+    status: 連署狀態
+    tools: 連署工具
+    organization: 組織相關
+    others: 其他問題
+    all: 全部問題
+  categories_desc:
+    reason: 了解為何要發起連署及其重要性。
+    process: 了解如何發起與推廣連署的各個步驟。
+    status: 查詢連署進度與相關資訊。
+    tools: 探索我們提供的各種連署工具與資源。
+    organization: 跟組織架構與運作方式有關。
+    others: 其他未分類的常見問題。
+    all: 我們收集的所有常見問題。
+  browse:
+    title: 選擇你的傳送門
+    questions: 想知道什麼樣的問題呢？

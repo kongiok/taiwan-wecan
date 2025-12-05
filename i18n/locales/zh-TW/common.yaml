@@ -1,8 +1,15 @@
 site:
-  title: 魔法部 X 人民作主志工團
-  description: 一群對本土有所期望的人形塑而成，共同出面拒絕憲法被凍結。
+  hero:
+    name: 魔法部 X 人民作主志工團
+    tagline: 一群對本土有所期望的人形塑而成，共同出面拒絕憲法被凍結。
+  seo:
+    name: 魔法部 X 人民作主志工團｜守護憲法，捍衛民主
+    description: 魔法部 X 人民作主志工團是一個由熱心公民組成的團體，致力於守護憲法與捍衛民主。
 
-route:
-  qna:
-    title: 有想知道的？我們回答
-    description: 這裏放著大家都好奇的問題，我們非常樂意回答並跟你討論討論。
+nav:
+  items:
+    home: 首頁
+    qna: 常見問題
+
+actions:
+  contactUs: 與我們聯絡！
