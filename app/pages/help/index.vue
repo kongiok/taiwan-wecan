@@ -13,7 +13,12 @@
       }"
     >
     </u-page-section>
-    <u-page-section :title="t('qna.browse.title')">
+    <u-page-section
+      :title="t('qna.browse.title')"
+      :ui="{
+        root: 'px-6',
+      }"
+    >
       <u-page-grid
         :ui="{
           wrapper: 'grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center',
@@ -40,7 +45,12 @@
         />
       </u-page-grid>
     </u-page-section>
-    <u-page-section :title="t('qna.browse.questions')">
+    <u-page-section
+      :title="t('qna.browse.questions')"
+      :ui="{
+        root: 'px-6',
+      }"
+    >
       <u-page-columns>
         <u-page-card
           v-for="post in filteredPosts"
