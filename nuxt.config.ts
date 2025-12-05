@@ -6,7 +6,14 @@ import {
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxt/content", "@nuxtjs/i18n"],
+  modules: [
+    "@nuxt/ui",
+    "@nuxtjs/mdc",
+    "@nuxt/content",
+    "@nuxtjs/i18n",
+    "@nuxt/fonts",
+    "@vueuse/nuxt",
+  ],
   appId: "taiwan-wecan",
   app: {
     rootAttrs: {
@@ -19,5 +26,16 @@ export default defineNuxtConfig({
     locales,
     defaultLocale,
     strategy: "prefix",
+  },
+  ui: {
+    experimental: {
+      componentDetection: true,
+    },
+  },
+  fonts: {
+    families: [
+      { name: "LXGW WenKai TC", provider: "google", global: true },
+      { name: "GenYoGothic", provider: "local", global: true },
+    ],
   },
 });
